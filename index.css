@@ -1,0 +1,38 @@
+#fisrtdiv {
+    /* border: black 2px solid; */
+    width: 605px;
+    height: 900px;
+    margin: auto;
+}
+
+canvas {
+    background-color: rgb(102, 102, 102);
+    width: 600px;
+    height: 600px;
+    margin-left: 2px;
+    margin-top: 2px;
+    border: 1px solid black;
+}
+
+span {
+    box-sizing: border-box;
+}
+
+.ppt {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    /* border: 1px solid black; */
+}
+
+div>div>label, button {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+select {
+    margin-left: 2px;
+    margin-top: 20px;
+    font-size: 20px;
+}

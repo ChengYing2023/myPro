@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_Project</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js" defer></script>
+</head>
+
+<body>
+    <div id="fisrtdiv">
+        <canvas width="600px" height="600px" id="canvas_id"></canvas>
+        <div>
+            <label for="">遊玩人數:</label>
+            <select name="Player" id="Player">
+                <option value="1">1</option>
+                <option value="2">2</option>
+            </select>
+            <label for="">Level:</label>
+            <select name="Difficulty" id="Difficulty">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">闖關模式</option>
+            </select>
+            <button onclick="gameStart()">開始遊戲</button>
+        </div>
+        <div id="score_id" class="ppt">玩家1:0</div>
+        <div id="score_id2" class="ppt">玩家2:0</div>
+        <div id="time" class="ppt">遊戲時間:0</div>
+        <div class="ppt">玩家1:上下左右鍵移動</div>
+        <div class="ppt">玩家2:Ｗ/上、Ｓ/下、Ａ/左、Ｄ/右</div>
+    </div>
+</body>
+
+</html>
